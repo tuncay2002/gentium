@@ -1,0 +1,370 @@
+.book {
+  text-decoration: none; }
+  .book:hover {
+    text-decoration: none; }
+
+.header {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  background-image: url(http://gentium.pixerex.com/wp/wp-content/uploads/2019/01/hero_02.jpg);
+  background-position: 70% 48%;
+  background-repeat: no-repeat;
+  background-size: 640px auto;
+  padding-top: 50px; }
+
+.header .logo {
+  color: white;
+  font-size: 40px;
+  font-weight: 900; }
+.header .hr {
+  width: 80px; }
+  .header .hr hr {
+    border: 2px solid red; }
+
+.col-lg-8 .nav-ul {
+  padding-top: 20px; }
+  .col-lg-8 .nav-ul li {
+    padding-right: 50px;
+    list-style: none;
+    position: relative; }
+    .col-lg-8 .nav-ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: 900; }
+      .col-lg-8 .nav-ul li a:hover {
+        text-decoration: none; }
+  .col-lg-8 .nav-ul .nav-li:hover::before {
+    width: 20px; }
+  .col-lg-8 .nav-ul .active-menu::before {
+    content: "";
+    position: absolute;
+    width: 20px !important;
+    height: 2px;
+    background: red;
+    bottom: 0;
+    z-index: 100; }
+  .col-lg-8 .nav-ul .nav-li::before {
+    transition: .5s;
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 2px;
+    background: red;
+    bottom: 0;
+    z-index: 100; }
+
+.head-2 {
+  padding: 100px 0; }
+  .head-2 h3 {
+    color: white;
+    padding-bottom: 50px;
+    font-size: 80px;
+    font-weight: 800; }
+  .head-2 a {
+    color: white;
+    padding-top: 30px;
+    font-weight: bold;
+    padding: 20px 50px;
+    border: 2px solid red;
+    position: relative;
+    transition: all 0.3s ease-in-out !important;
+    z-index: 1; }
+    .head-2 a::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      background: red;
+      width: 0%;
+      transition: all 0.3s ease-in-out !important;
+      z-index: -1; }
+    .head-2 a:hover::before {
+      width: 100%; }
+    .head-2 a:hover {
+      text-decoration: none; }
+
+.head-3 .container i {
+  color: red !important;
+  padding: 40px 0;
+  color: white;
+  font-size: 40px; }
+.head-3 .container h5 {
+  font-size: 24px;
+  font-weight: 700; }
+.head-3 .container .col-lg-4 {
+  grid: 33%;
+  margin-right: 20px;
+  padding: 20px 0;
+  padding-left: 30px;
+  background-color: #222121; }
+  .head-3 .container .col-lg-4:hover {
+    transition: all 0.3s ease-in-out !important;
+    background-color: red; }
+    .head-3 .container .col-lg-4:hover hr {
+      border: 2px solid white; }
+    .head-3 .container .col-lg-4:hover i {
+      color: white !important; }
+  .head-3 .container .col-lg-4 h5 {
+    color: white; }
+  .head-3 .container .col-lg-4 p {
+    font-weight: 500;
+    color: white;
+    padding-bottom: 30px; }
+.head-3 .container .actives {
+  background-color: red; }
+  .head-3 .container .actives i {
+    color: white !important; }
+  .head-3 .container .actives hr {
+    border: 2px solid white !important; }
+.head-3 .container .hello {
+  width: 35px; }
+  .head-3 .container .hello hr {
+    border: 2px solid red; }
+.head-3 .container .name {
+  position: relative; }
+  .head-3 .container .name .after {
+    z-index: -1;
+    left: 0;
+    bottom: -20px;
+    width: 400px;
+    height: 50px;
+    background-color: red;
+    position: absolute; }
+
+.sec1 {
+  position: relative; }
+  .sec1 .hello-2 {
+    left: 580px;
+    top: 0;
+    position: absolute;
+    width: 35px; }
+    .sec1 .hello-2 hr {
+      transform: rotate(-90deg);
+      border: 1px solid #e81f4e; }
+  .sec1 .hello-3 {
+    padding-top: 100px;
+    width: 40px; }
+    .sec1 .hello-3 hr {
+      border: 1px solid red; }
+  .sec1 h1 {
+    color: black;
+    font-weight: 700;
+    padding-top: 10px;
+    font-size: 50px; }
+  .sec1 p {
+    padding-bottom: 20px;
+    color: red;
+    letter-spacing: -0.2;
+    font-size: 15px;
+    font-weight: 700; }
+  .sec1 .row1, .sec1 .row2, .sec1 .row3 {
+    margin-bottom: 40px; }
+    .sec1 .row1 .col-lg-4, .sec1 .row2 .col-lg-4, .sec1 .row3 .col-lg-4 {
+      margin-right: 20px; }
+    .sec1 .row1 .serv, .sec1 .row2 .serv, .sec1 .row3 .serv {
+      position: relative;
+      width: 100%;
+      height: 60px;
+      background-color: #a09f9f;
+      overflow: hidden; }
+      .sec1 .row1 .serv:hover, .sec1 .row2 .serv:hover, .sec1 .row3 .serv:hover {
+        background-color: red; }
+        .sec1 .row1 .serv:hover .left, .sec1 .row2 .serv:hover .left, .sec1 .row3 .serv:hover .left {
+          transition: all .3s;
+          left: 2px; }
+          .sec1 .row1 .serv:hover .left i, .sec1 .row2 .serv:hover .left i, .sec1 .row3 .serv:hover .left i {
+            transform: scale(1); }
+        .sec1 .row1 .serv:hover .right, .sec1 .row2 .serv:hover .right, .sec1 .row3 .serv:hover .right {
+          right: 20px; }
+      .sec1 .row1 .serv .left, .sec1 .row2 .serv .left, .sec1 .row3 .serv .left {
+        height: 100%;
+        position: absolute;
+        left: -40px;
+        transition: all .3s; }
+        .sec1 .row1 .serv .left i, .sec1 .row2 .serv .left i, .sec1 .row3 .serv .left i {
+          color: white;
+          font-size: 55px;
+          opacity: 0.5;
+          transform: scale(0);
+          transition: .3s; }
+      .sec1 .row1 .serv p, .sec1 .row2 .serv p, .sec1 .row3 .serv p {
+        padding-top: 1rem;
+        color: white;
+        padding-left: 20px; }
+      .sec1 .row1 .serv i, .sec1 .row2 .serv i, .sec1 .row3 .serv i {
+        color: white;
+        font-size: 55px; }
+      .sec1 .row1 .serv .right, .sec1 .row2 .serv .right, .sec1 .row3 .serv .right {
+        height: 100%;
+        position: absolute;
+        right: 30px;
+        transition: all .3s; }
+        .sec1 .row1 .serv .right i, .sec1 .row2 .serv .right i, .sec1 .row3 .serv .right i {
+          font-size: 20px; }
+  .sec1 .row3 {
+    padding-bottom: 50px; }
+  .sec1 .hello-4 {
+    margin-left: 560px;
+    width: 50px; }
+    .sec1 .hello-4 hr {
+      border: 1px solid red;
+      transform: rotate(-90deg); }
+
+.sec2 {
+  margin: 100px 0; }
+  .sec2 .col-lg-4 .hello-5 {
+    width: 40px; }
+    .sec2 .col-lg-4 .hello-5 hr {
+      border: 1px solid red; }
+  .sec2 .col-lg-4 h2 {
+    color: black;
+    font-weight: 700;
+    font-size: 45px; }
+  .sec2 .col-lg-4 p {
+    font-weight: bold;
+    color: red; }
+  .sec2 .col-lg-8 a {
+    font-weight: bold;
+    color: black;
+    margin-top: 20px;
+    padding: 10px 30px;
+    border: 2px solid red;
+    float: right; }
+    .sec2 .col-lg-8 a:hover {
+      color: white;
+      background-color: red;
+      transition: all 0.5s;
+      text-decoration: none; }
+  .sec2 .row3 .img1 {
+    overflow: hidden;
+    width: 500px;
+    height: 300px;
+    position: relative;
+    transition: transform .3s; }
+    .sec2 .row3 .img1:hover {
+      transform: scale(0.9); }
+      .sec2 .row3 .img1:hover img {
+        transform: scale(1.2);
+        filter: none; }
+      .sec2 .row3 .img1:hover .opacity1 {
+        opacity: 1;
+        transition: all .3s; }
+    .sec2 .row3 .img1 img {
+      filter: grayscale(100%);
+      width: 100%;
+      height: 100%;
+      transition: transform .3s; }
+    .sec2 .row3 .img1 .opacity1 {
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.295);
+      opacity: 0;
+      text-align: center;
+      left: 0;
+      right: 0;
+      top: 0;
+      position: absolute; }
+      .sec2 .row3 .img1 .opacity1 h4 {
+        padding-top: 150px;
+        color: white;
+        font-weight: 700; }
+      .sec2 .row3 .img1 .opacity1 p {
+        color: #dddddd;
+        font-weight: bold; }
+
+.hello-7 {
+  margin-left: 790px;
+  width: 50px; }
+  .hello-7 hr {
+    border: 1px solid red;
+    transform: rotate(-90deg); }
+
+.sec3 {
+  padding: 100px 0; }
+  .sec3 .col-lg-4 .hr7 {
+    width: 40px; }
+    .sec3 .col-lg-4 .hr7 hr {
+      border: 1px solid red; }
+  .sec3 .col-lg-4 h2 {
+    color: black;
+    font-weight: 700;
+    font-size: 45px; }
+  .sec3 .col-lg-4 p {
+    font-weight: bold;
+    color: red; }
+  .sec3 .col-lg-8 p {
+    color: #747474;
+    margin: 20px 0;
+    float: right; }
+  .sec3 .row5 .col-lg-8 {
+    position: relative;
+    margin-right: -10px; }
+    .sec3 .row5 .col-lg-8 img {
+      width: 100%;
+      height: 100%;
+      filter: grayscale(70%); }
+    .sec3 .row5 .col-lg-8 .img-opc {
+      left: 0;
+      bottom: 0;
+      position: absolute; }
+    .sec3 .row5 .col-lg-8:hover img {
+      filter: none; }
+  .sec3 .row5 .col-lg-4 .images {
+    margin-bottom: 10px;
+    position: relative;
+    width: 350px; }
+    .sec3 .row5 .col-lg-4 .images img {
+      width: 100%; }
+    .sec3 .row5 .col-lg-4 .images .img-opc {
+      width: 96%;
+      left: 0;
+      bottom: 0;
+      position: absolute; }
+  .sec3 .row5 .col-lg-4 .image2 {
+    position: relative;
+    width: 350px; }
+    .sec3 .row5 .col-lg-4 .image2 img {
+      width: 100%; }
+    .sec3 .row5 .col-lg-4 .image2 .img-opc {
+      width: 96%;
+      left: 0;
+      bottom: 0;
+      position: absolute; }
+
+.work-img {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  transition: .5s;
+  position: relative; }
+  .work-img img {
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+    filter: grayscale(70%); }
+  .work-img:hover {
+    transform: scale(0.9); }
+    .work-img:hover img {
+      transform: scale(1.2);
+      filter: none; }
+    .work-img:hover .bg-color {
+      opacity: 1; }
+  .work-img .bg-color {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.616);
+    opacity: 0;
+    transition: .5s; }
+  .work-img .bg-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; }
+
+/*# sourceMappingURL=style.css.map */
